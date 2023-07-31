@@ -152,7 +152,63 @@
         </h2>
         <!-- Portfolio Grid Items-->
         <div class="row justify-content-center">
-          <!-- Portfolio Item: OA % Race Census Tracts SG Nat Mon-->
+          <!-- Portfolio Item: OA Hub-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <a
+              data-bs-target="#portfolioModal10"
+              class="portfolio-item mx-auto"
+              data-bs-toggle="modal"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                src="assets/portfolio/img/oa_hub.png"
+                class="img-fluid"
+                alt=""
+              />
+            </a>
+            <div class="portfolio-caption text-center">
+              <h4>A Framework for Using GIS to Assess Equitable Recreation</h4>
+              <p class="portfolio-caption-desc text-muted">GIS</p>
+            </div>
+          </div>
+          <!-- Portfolio Item: OA Mt Hood-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <a
+              data-bs-target="#portfolioModal9"
+              class="portfolio-item mx-auto"
+              data-bs-toggle="modal"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                src="assets/portfolio/img/oa_mh_web_study_area.png"
+                class="img-fluid"
+                alt=""
+              />
+            </a>
+            <div class="portfolio-caption text-center">
+              <h4>Equitable Recreation around Mount Hood</h4>
+              <p class="portfolio-caption-desc text-muted">
+                GIS and digital storytelling
+              </p>
+            </div>
+          </div>
+          <!-- Portfolio Item: OA San Gabriel-->
           <div class="col-md-6 col-lg-4 mb-5">
             <a
               data-bs-target="#portfolioModal8"
@@ -169,14 +225,16 @@
                 </div>
               </div>
               <img
-                src="assets/portfolio/img/san_gabriel_service_areas.jpg"
+                src="assets/portfolio/img/oa_sg_web_race.png"
                 class="img-fluid"
                 alt=""
               />
             </a>
             <div class="portfolio-caption text-center">
-              <h4>Network Analysis around the San Gabriel National Monument</h4>
-              <p class="portfolio-caption-desc text-muted">GIS</p>
+              <h4>Equitable Recreation in the San Gabriel Mountains</h4>
+              <p class="portfolio-caption-desc text-muted">
+                GIS and digital storytelling
+              </p>
             </div>
           </div>
           <!-- Portfolio Item: 956 Final Proj-->
@@ -639,7 +697,192 @@
     </footer>
     <!-- Portfolio Modals-->
 
-    <!-- Portfolio Modal: OA % Race Census Tracts SG Nat Mon -->
+    <!-- Portfolio Modal: OA Hub Site -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal10"
+      tabindex="-1"
+      aria-labelledby="portfolioModal10"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-2"
+                  >
+                    A Framework for Using GIS to Assess Equitable Recreation
+                  </h2>
+                  <p class="portfolio-caption-desc text-muted">GIS</p>
+                  <!-- Portfolio Modal - Image-->
+                  <img
+                    class="img-fluid mb-5"
+                    src="assets/portfolio/img/oa_hub_data.png"
+                    alt="..."
+                  />
+                  <p>
+                    <a
+                      href="https://assessing-equitable-recreation-access-uw-mad.hub.arcgis.com/"
+                      >Link to ArcGIS Hub site</a
+                    >
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/kathrynrbernard/equitable-recreation/tree/main"
+                      >Python scripts on GitHub</a
+                    >
+                  </p>
+                  <!-- Portfolio Modal - Text-->
+
+                  <p class="portfolio-item-desc">
+                    Public lands are spaces that have often been restricted,
+                    both explicitly and implicitly, to individuals with racial,
+                    economic, gender, able-bodied, neurotypical, and geographic
+                    privilege. Despite the many benefits of green space and
+                    public lands for individual and community health, access to
+                    these spaces is highly variable across the United States.
+                    <br /><br />
+
+                    As the capstone project for my master's degree, I partnered
+                    with Outdoor Alliance, a non-profit coalition of outdoor
+                    recreation advocacy groups that works at the federal policy
+                    level to advance legislation benefitting outdoor recreation
+                    and conservation. When Outdoor Alliance works to protect a
+                    place or advance an equitable access policy, they need to
+                    assess who benefits from the policy or proposal and who does
+                    not. In this project, I used geospatial methods to assess
+                    equitable recreation access. This hub site contains all the
+                    data sourcess, methodology notes, Python scripts, and
+                    visualizations I completed over the course of that project.
+                    <br /><br />
+
+                    The goal is that the site provides enough information that
+                    someone else could reproduce this analysis on an area they
+                    are interested in - so give it a try for the lands where you
+                    live, play, or work!
+                  </p>
+                  <ul class="portfolio-item-desc list-inline">
+                    <li><strong>Completion date:</strong> August 2023</li>
+                    <li><strong>Course:</strong> Capstone Project</li>
+                    <li>
+                      <strong>Technologies:</strong> ArcGIS Pro (Network
+                      Analyst, Spatial Analyst), ArcGIS Online, Python (arcpy,
+                      numpy, pandas)
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary" data-bs-dismiss="modal">
+                    <i class="fas fa-xmark fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal: OA Mount Hood -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal9"
+      tabindex="-1"
+      aria-labelledby="portfolioModal9"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-2"
+                  >
+                    Equitable Recreation around Mount Hood
+                  </h2>
+                  <p class="portfolio-caption-desc text-muted">GIS</p>
+                  <!-- Portfolio Modal - Image-->
+                  <img
+                    class="img-fluid mb-5"
+                    src="assets/portfolio/img/oa_mh_web_income.png"
+                    alt="..."
+                  />
+
+                  <img
+                    class="img-fluid mb-5"
+                    src="assets/portfolio/img/oa_mh_web_race.png"
+                    alt="..."
+                  />
+
+                  <p>
+                    <a
+                      href="https://storymaps.arcgis.com/stories/426c76d8348e4b58ba181fb10b51935a"
+                      >Explore the StoryMap</a
+                    >
+                  </p>
+                  <!-- Portfolio Modal - Text-->
+
+                  <p class="portfolio-item-desc">
+                    This StoryMap contains the most important results of the
+                    analysis I conducted regarding equitable recreation access
+                    in the Mt. Hood area. The demographics of the census tracts
+                    within a 90 mile drive of the recreation areas outside of
+                    Portland are largely similar to the overall population of
+                    Oregon. However, the proposed Mt. Hood and Columbia River
+                    Gorge Recreation Enhancement and Conservation Act would
+                    convert a large portion of the existing designated
+                    Wilderness areas to a designation of National Recreation
+                    Area, which has significant implications for the types of
+                    recreational activities allowed on these lands. Broadening
+                    the spectrum of recreational opportunity in this area has
+                    the potential to encourage more locals to make use of this
+                    landscape and receive the benefits of spending time in
+                    nature.
+                  </p>
+                  <ul class="portfolio-item-desc list-inline">
+                    <li><strong>Completion date:</strong> August 2023</li>
+                    <li><strong>Course:</strong> Capstone Project</li>
+                    <li>
+                      <strong>Technologies:</strong> ArcGIS Pro (Network
+                      Analyst, Spatial Analyst), ArcGIS Online, Python (arcpy,
+                      numpy, pandas), StoryMaps
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary" data-bs-dismiss="modal">
+                    <i class="fas fa-xmark fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal: OA San Gabriel -->
     <div
       class="portfolio-modal modal fade"
       id="portfolioModal8"
@@ -671,50 +914,53 @@
                   <!-- Portfolio Modal - Image-->
                   <img
                     class="img-fluid mb-5"
-                    src="assets/portfolio/img/san_gabriel_prevalent_race.jpg"
+                    src="assets/portfolio/img/oa_sg_web_rec.png"
                     alt="..."
                   />
 
-                  <img
-                    class="img-fluid mb-5"
-                    src="assets/portfolio/img/san_gabriel_education.jpg"
-                    alt="..."
-                  />
+                  <p>
+                    <a
+                      href="https://storymaps.arcgis.com/stories/62a3e20243b646538acd1c9d68fb8671"
+                      >Explore the StoryMap</a
+                    >
+                  </p>
                   <!-- Portfolio Modal - Text-->
 
                   <p class="portfolio-item-desc">
-                    Public lands are spaces that have often been restricted,
-                    both explicitly and implicitly, to individuals with racial,
-                    economic, gender, able-bodied, neurotypical, and geographic
-                    privilege. Despite the many benefits of green space and
-                    public lands for individual and community health, access to
-                    these spaces is highly variable across the United States.
-                    When Outdoor Alliance works to protect a place or advance an
-                    equitable access policy, they need to assess who benefits
-                    from the policy or proposal and who does not. <br /><br />
+                    This StoryMap contains the most important results of the
+                    analysis I conducted regarding equitable recreation access
+                    in the San Gabriel Mountains National Monument area. The
+                    population within a 30 mile drive of the monument is
+                    predominantly Hispanic/Latino, at a much higher proportion
+                    than the overall population of California. Communities of
+                    color systematically lack access to green space and
+                    opportunities to recreate in nature, so the fact that this
+                    population lives so close to a national monument is an
+                    opportunity to engage with them and promote their use of the
+                    monument. However, the recreational resources currently
+                    available at the monument don't align well with this group's
+                    typical recreational preferences. Research shows that
+                    Hispanic and Latino communities typically visit natural
+                    areas with a large group of extended family and use this
+                    time to strengthen their social and communal bonds, so they
+                    prefer to utilize large day use areas. <br /><br />
 
-                    As the capstone project for my master's degree, I am working
-                    with Outdoor Alliance to identify and develop Geospatial
-                    methods to assess equitable recreation access. These maps
-                    represent some preliminary graphics from my analysis of
-                    equitable access to the San Gabriel National Monument in
-                    California. Using datasets for national, local, and USFS
-                    road networks, I created a model of the "service area" of
-                    the San Gabriel Monument to determine which communitied had
-                    access to this space within a 10 mile drive. Then, I created
-                    demographic profiles of the census tracts within that 10
-                    mile service area to assess whether underserved groups had
-                    access to the recreation sites on this land. <br /><br />
-
-                    The project is still in its early phases - more analyses and
-                    graphics are coming soon!
+                    The San Gabriel Mountains, Rivers, and Foothills Protection
+                    Act would add a significant amount of acreage to the
+                    monument and, in doing so, more than double the amount of
+                    picnic areas in the monument. Increasing the number of
+                    picnic and other day use areas could encourage the local
+                    population to visit the monument more often and make use of
+                    its natural resources, which is a strong argument in favor
+                    of this legislation.
                   </p>
                   <ul class="portfolio-item-desc list-inline">
-                    <li><strong>Completion date:</strong> June 2023</li>
+                    <li><strong>Completion date:</strong> August 2023</li>
                     <li><strong>Course:</strong> Capstone Project</li>
                     <li>
                       <strong>Technologies:</strong> ArcGIS Pro (Network
-                      Analyst), ArcPy
+                      Analyst, Spatial Analyst), ArcGIS Online, Python (arcpy,
+                      numpy, pandas), StoryMaps
                     </li>
                   </ul>
                   <button class="btn btn-primary" data-bs-dismiss="modal">
