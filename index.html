@@ -153,6 +153,35 @@
         </h2>
         <!-- Portfolio Grid Items-->
         <div class="row justify-content-center">
+          <!-- Portfolio Item: NPS Biodiversity Leaflet Map-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <a
+              data-bs-target="#portfolioModal12"
+              class="portfolio-item mx-auto"
+              data-bs-toggle="modal"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                src="assets/portfolio/img/nps-biodiversity.png"
+                class="img-fluid"
+                alt=""
+              />
+            </a>
+            <div class="portfolio-caption text-center">
+              <h4>Biodiversity in National Parks</h4>
+              <p class="portfolio-caption-desc text-muted">
+                Interactive Mapping
+              </p>
+            </div>
+          </div>
           <!-- Portfolio Item: TNC Door Peninsula-->
           <div class="col-md-6 col-lg-4 mb-5">
             <a
@@ -791,6 +820,87 @@
       </div>
     </footer>
     <!-- Portfolio Modals-->
+
+    <!-- Portfolio Modal: NPS Biodiversity Leaflet Map -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal12"
+      tabindex="-1"
+      aria-labelledby="portfolioModal12"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-2"
+                  >
+                    Biodiversity in National Parks
+                  </h2>
+                  <p class="portfolio-caption-desc text-muted">GIS</p>
+                  <!-- Portfolio Modal - Image-->
+                  <img
+                    class="img-fluid mb-5"
+                    src="assets/portfolio/img/nps-biodiversity-zoom.png"
+                    alt="..."
+                  />
+
+                  <p>
+                    <a
+                      href="https://github.com/kathrynrbernard/nps-biodiversity/tree/main"
+                      >GitHub</a
+                    >
+                  </p>
+
+                  <!-- Portfolio Modal - Text-->
+
+                  <p class="portfolio-item-desc">
+                    I participated in the Data Visualization Society's
+                    <a
+                      href="https://www.datavisualizationsociety.org/mentorship"
+                      >mentorship program</a
+                    >
+                    as a mentee from October 2023-December 2023. The goal of the
+                    program is to pair experienced and new data viz
+                    practitioners to facilitate learning in a small-group
+                    setting. As my mentorship project, I designed and coded an
+                    interactive map using Leaflet and D3 that highlights
+                    biodiversity levels in National Parks around the United
+                    States.
+                  </p>
+                  <ul class="portfolio-item-desc list-inline">
+                    <li><strong>Completion date:</strong> December 2023</li>
+                    <li>
+                      <strong>Collaborators:</strong> Angelos Chatzimparmpas
+                    </li>
+                    <li>
+                      <strong>Technologies:</strong> Leaflet (JavaScript), D3,
+                      Observable
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary" data-bs-dismiss="modal">
+                    <i class="fas fa-xmark fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Portfolio Modal: TNC Door Peninsula -->
     <div
